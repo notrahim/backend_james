@@ -20,7 +20,7 @@ const connect = async () => {
 }
 
 if (require.main === module) {
-  app.listen(config.port);
+  app.listen(process.env.PORT || 5000);
  connect()
   mongoose.connection.on('error', console.log);
 }
