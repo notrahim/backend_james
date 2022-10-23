@@ -3,8 +3,8 @@ module.exports = {
   port: 8080,
   db: {
     
-    prod: process.env.DATABASE_URL || 'mongodb://localhost:27017',
-    test: 'mongodb://localhost:27017',
+    prod: process.env.DATABASE_URL || 'mongodb+srv://jameskobulyar:<james123>@cluster0.qyxuyxt.mongodb.net/?retryWrites=true&w=majority',
+    test: 'mongodb+srv://jameskobulyar:<james123>@cluster0.qyxuyxt.mongodb.net/?retryWrites=true&w=majority',
     options: {
       useNewUrlParser: true,
      
