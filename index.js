@@ -6,7 +6,7 @@ const config = require('./config');
 
 const connect = async () => {
   try {
-    const conn = await mongoose.connect('mongodb://localhost:27017/reddit', {
+    const conn = await mongoose.connect('mongodb+srv://jameskobulyar:<james123>@cluster0.qyxuyxt.mongodb.net/?retryWrites=true&w=majority/reddit', {
       useUnifiedTopology: true,
       useNewUrlParser: true,
       useCreateIndex: true,
